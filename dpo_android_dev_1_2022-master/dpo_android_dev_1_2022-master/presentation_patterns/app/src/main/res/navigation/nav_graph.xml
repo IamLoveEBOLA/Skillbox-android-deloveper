@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_search">
+
+    <fragment
+        android:id="@+id/fragment_search"
+        android:name="com.example.myapplication.presentation.ui.city_search_screen.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_fragment_search_to_fragment_search_history"
+            app:destination="@id/fragment_search_history" />
+        <action
+            android:id="@+id/action_fragment_search_to_cityFragment"
+            app:destination="@id/cityFragment">
+            <argument
+                android:name="cityListItem"
+                app:argType="com.example.myapplication.data.models.city.CityListItem" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityFragment"
+        android:name="com.example.myapplication.presentation.ui.city_weather_screen.CityFragment"
+        android:label="fragment_city"
+        tools:layout="@layout/fragment_city">
+        <argument
+            android:name="cityListItem"
+            app:argType="com.example.myapplication.data.models.city.CityListItem" />
+        <action
+            android:id="@+id/action_cityFragment_to_fragment_search_history"
+            app:destination="@id/fragment_search_history" />
+        <action
+            android:id="@+id/action_cityFragment_to_fragment_search"
+            app:destination="@id/fragment_search" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_search_history"
+        android:name="com.example.myapplication.presentation.ui.search_history_screen.CitySearchHistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_search_history">
+        <action
+            android:id="@+id/action_fragment_search_history_to_fragment_search"
+            app:destination="@id/fragment_search" />
+    </fragment>
+
+
+
+</navigation>

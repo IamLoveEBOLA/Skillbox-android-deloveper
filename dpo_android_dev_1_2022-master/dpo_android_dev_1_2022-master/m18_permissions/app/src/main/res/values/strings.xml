@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_no_is_granted">Разрешения камеры не предоставлены</string>
+    <string name="granted_ok">Разрешение камеры предоставлено</string>
+    <string name="photo">Сделать фото</string>
+</resources>

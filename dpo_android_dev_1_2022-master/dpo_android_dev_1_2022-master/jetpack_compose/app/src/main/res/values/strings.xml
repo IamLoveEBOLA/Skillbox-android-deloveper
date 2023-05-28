@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="error_network">Ошибка подключения к интернету</string>
+    <string name="retry">Повторить попытку</string>
+</resources>

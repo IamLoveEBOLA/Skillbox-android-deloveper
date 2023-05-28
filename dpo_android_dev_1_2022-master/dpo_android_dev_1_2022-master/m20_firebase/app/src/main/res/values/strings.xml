@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_no_is_granted">Разрешения не предоставлены</string>
+    <string name="granted_ok">Разрешение предоставлено</string>
+    <string name="photo">Сделать фото</string>
+    <string name="map">Карта</string>
+    <string name="channel_name">Моё уведосление</string>
+    <string name="channel_description">описание канала</string>
+</resources>

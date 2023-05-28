@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="set_alarm">set alarm</string>
+    <string name="set_time">set time</string>
+    <string name="set_time_zone">set time zone</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Just Go</string>
+    <string name="button">Continue</string>
+    <string name="restart_button">Try again</string>
+    <string name="back_button">Back</string>
+    <string name="message">Welcome!</string>
+    <string name="birth_button">Select date of birth</string>
+    <string name="birth">Select date of birth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

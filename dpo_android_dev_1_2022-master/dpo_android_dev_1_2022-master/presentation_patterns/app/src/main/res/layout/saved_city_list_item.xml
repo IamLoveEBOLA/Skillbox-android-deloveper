@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/purple_200"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:gravity="top"
+        android:paddingStart="15dp"
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="city_name"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:gravity="bottom"
+        android:id="@+id/region"
+        android:paddingTop="25dp"
+        android:paddingStart="15dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="region"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_gravity="end"
+        android:id="@+id/date"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="dd-MM-yyyy"
+        tools:ignore="RtlSymmetry" />
+
+</androidx.cardview.widget.CardView>
